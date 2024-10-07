@@ -22,9 +22,51 @@
 /*******************************************/
 
 body {
-
+     background-color: black;
+     color: white;
 }
 
+.ed-discussions {
+     color: blueviolet;
+}
+
+.ed-lessons {
+     color: purple;
+}
+
+.slides {
+     color:red;
+}
+
+.gradescope {
+     color: lightblue
+}
+
+a {
+     color: inherit;
+}
+
+a:hover {
+     color: blue;
+     text-decoration: underline;
+}
+
+.classes {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding: 20px;
+}
+
+.class {
+     text-align: center;
+     min-width: 150px;
+     border-width: 4px;
+     border-style: solid;
+     border-color: blue;
+}
 
 /******************************************
 /* LAYOUT
