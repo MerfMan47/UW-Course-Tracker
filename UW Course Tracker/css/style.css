@@ -43,7 +43,11 @@ body {
 }
 
 .gradescope {
-     color: lightblue
+     color: lightblue;
+}
+
+.refSheet {
+     color : yellow;
 }
 
 a {
